@@ -3,6 +3,7 @@ import { AddDto } from './dto';
 
 @Injectable()
 export class AddModuleService {
+    // sum of array
     sum_array(arr){
         var sum=0,num : any;
         for(num of arr){
